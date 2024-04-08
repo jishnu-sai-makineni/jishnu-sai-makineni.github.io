@@ -1,15 +1,12 @@
 <html>
-  <script>
-    var button = document.getElementById("myButton");
-    button.addEventListener("click",function(e){
-      button.disabled = "true";
-    },false);
-  </script>
   <body>
-    <h1>
-      Hello!!
-    </h1>
-    <br><br>
-    <button id='myButton'>Hello</button>
+    <button type="button" onclick="clickHandler()">Click Me!</button>
+    <script>
+        function clickHandler() {
+          alert("something");
+        }
+    </script>
   </body>
+  
+  
 </html>
