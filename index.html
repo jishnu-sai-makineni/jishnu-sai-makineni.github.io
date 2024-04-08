@@ -1,7 +1,15 @@
 <html>
+  <script>
+    var button = document.getElementById("myButton");
+    button.addEventListener("click",function(e){
+      button.disabled = "true";
+    },false);
+  </script>
   <body>
     <h1>
       SUP LOSER
     </h1>
+    <br><br>
+    <button id='myButton'>Hello</button>
   </body>
 </html>
