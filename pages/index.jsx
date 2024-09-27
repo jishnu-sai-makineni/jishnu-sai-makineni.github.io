@@ -18,7 +18,7 @@ export default function App(){
         <Col className="w-50">
           <Card >
             <Card.Img style={{width: "100%", height: "300px"}} src="https://www.colorhexa.com/69facd.png" />
-              <Link className='stretched-link' href='/joinGame'><a className='stretched-link'></a></Link>
+              <Link className='stretched-link' href='/joingame'><a className='stretched-link'></a></Link>
               <Card.ImgOverlay>
                 <Card.Title>Join a Game</Card.Title>
               </Card.ImgOverlay>
@@ -29,7 +29,7 @@ export default function App(){
         <Col className="w-50">
           <Card >
             <Card.Img style={{width: "100%", height: "300px"}} src="https://www.colorhexa.com/27caeb.png" />
-            <Link className='stretched-link' href='/createGame'><a className='stretched-link'></a></Link>
+            <Link className='stretched-link' href='/creategame'><a className='stretched-link'></a></Link>
             <Card.ImgOverlay>
                 <Card.Title>Create a Game</Card.Title>
             </Card.ImgOverlay>
