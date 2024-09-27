@@ -10,7 +10,6 @@ export async function getServerSideProps(context) {
 }
 
 export default function Game(props){
-
   function playTurn(number){
     socket.emit("playTurn", number);
 }
